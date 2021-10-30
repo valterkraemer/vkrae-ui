@@ -1,0 +1,20 @@
+@import "../../scss/_variables";
+
+@mixin export-map($name, $map) {
+  @each $key, $value in $map {
+    :export {
+      #{$name}--#{$key}: $value;
+    }
+  }
+}
+
+$maps: (
+  "theme-colors": $theme-colors,
+  "grid-breakpoints": $grid-breakpoints,
+  "font-sizes": $font-sizes,
+  "utilities-colors": $utilities-colors,
+);
+
+@each $key, $map in $maps {
+  @include export-map($key, $map);
+}

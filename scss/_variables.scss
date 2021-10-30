@@ -1,0 +1,15 @@
+$primary: #0d6efd !default;
+
+$utilities: () !default;
+$colors: () !default;
+$grays: () !default;
+$theme-colors: (
+  primary: $primary,
+) !default;
+$theme-colors-rgb: () !default;
+$enable-rfs: false !default;
+$enable-validation-icons: false !default;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";

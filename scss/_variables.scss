@@ -10,6 +10,15 @@ $theme-colors-rgb: () !default;
 $enable-rfs: false !default;
 $enable-validation-icons: false !default;
 
+$grid-breakpoints: (
+  xs: 0,
+  xl: 1320px,
+) !default;
+
+$container-max-widths: (
+  xl: 1320px
+) !default;
+
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";

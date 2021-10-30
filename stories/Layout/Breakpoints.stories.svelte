@@ -3,7 +3,7 @@
 
   import variables from "../utils/scss-variables";
 
-  const gridBreakpoints = Object.entries(variables["grid-breakpoints"]);
+  const gridBreakpoints = Object.entries(variables["grid-breakpoints"] || {});
 </script>
 
 <Meta title="Layout/Breakpoints" />

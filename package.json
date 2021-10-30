@@ -1,6 +1,6 @@
 {
   "name": "vkrae-ui",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "UI library",
   "style": "index.css",
   "sass": "scss/index.scss",
